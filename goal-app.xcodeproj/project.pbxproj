@@ -14,6 +14,7 @@
 		25CB702C26415135003372EE /* goal_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702A26415135003372EE /* goal_app.xcdatamodeld */; };
 		25CB702E26415139003372EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CB702D26415139003372EE /* Assets.xcassets */; };
 		25CB703126415139003372EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CB702F26415139003372EE /* LaunchScreen.storyboard */; };
+		25CB703D26415E11003372EE /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB703C26415E11003372EE /* GoalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		25CB702D26415139003372EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25CB703026415139003372EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CB703226415139003372EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CB703C26415E11003372EE /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		25CB703926415300003372EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25CB703C26415E11003372EE /* GoalTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				25CB702C26415135003372EE /* goal_app.xcdatamodeld in Sources */,
 				25CB702626415135003372EE /* GoalsViewController.swift in Sources */,
 				25CB702226415135003372EE /* AppDelegate.swift in Sources */,
+				25CB703D26415E11003372EE /* GoalTableViewCell.swift in Sources */,
 				25CB702426415135003372EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
