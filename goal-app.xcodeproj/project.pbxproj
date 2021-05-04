@@ -17,6 +17,10 @@
 		25CB703D26415E11003372EE /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB703C26415E11003372EE /* GoalTableViewCell.swift */; };
 		25CB703F26416841003372EE /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB703E26416841003372EE /* GoalType.swift */; };
 		25CB704126416E00003372EE /* CreateGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB704026416E00003372EE /* CreateGoalViewController.swift */; };
+		25CB704326417070003372EE /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB704226417070003372EE /* UIViewControllerExt.swift */; };
+		25CB704526417492003372EE /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB704426417492003372EE /* UIViewExt.swift */; };
+		25CB7047264178D7003372EE /* UIBtnExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB7046264178D7003372EE /* UIBtnExt.swift */; };
+		25CB704926417F8C003372EE /* FinishGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB704826417F8C003372EE /* FinishGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		25CB703C26415E11003372EE /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
 		25CB703E26416841003372EE /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		25CB704026416E00003372EE /* CreateGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalViewController.swift; sourceTree = "<group>"; };
+		25CB704226417070003372EE /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		25CB704426417492003372EE /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		25CB7046264178D7003372EE /* UIBtnExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBtnExt.swift; sourceTree = "<group>"; };
+		25CB704826417F8C003372EE /* FinishGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 			children = (
 				25CB702526415135003372EE /* GoalsViewController.swift */,
 				25CB704026416E00003372EE /* CreateGoalViewController.swift */,
+				25CB704826417F8C003372EE /* FinishGoalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +116,9 @@
 		25CB703B2641530F003372EE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				25CB704226417070003372EE /* UIViewControllerExt.swift */,
+				25CB704426417492003372EE /* UIViewExt.swift */,
+				25CB7046264178D7003372EE /* UIBtnExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -181,10 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CB704526417492003372EE /* UIViewExt.swift in Sources */,
 				25CB702C26415135003372EE /* goal_app.xcdatamodeld in Sources */,
 				25CB704126416E00003372EE /* CreateGoalViewController.swift in Sources */,
+				25CB704326417070003372EE /* UIViewControllerExt.swift in Sources */,
 				25CB702626415135003372EE /* GoalsViewController.swift in Sources */,
 				25CB703F26416841003372EE /* GoalType.swift in Sources */,
+				25CB7047264178D7003372EE /* UIBtnExt.swift in Sources */,
+				25CB704926417F8C003372EE /* FinishGoalViewController.swift in Sources */,
 				25CB702226415135003372EE /* AppDelegate.swift in Sources */,
 				25CB703D26415E11003372EE /* GoalTableViewCell.swift in Sources */,
 				25CB702426415135003372EE /* SceneDelegate.swift in Sources */,
