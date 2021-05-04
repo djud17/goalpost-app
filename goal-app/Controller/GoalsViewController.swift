@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class GoalsViewController: UIViewController {
     
@@ -13,7 +14,9 @@ class GoalsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        goalsTableView.delegate = self
+        goalsTableView.dataSource = self
+        goalsTableView.isHidden = false
     }
 
     @IBAction func addGoalBtnWasPressed(_ sender: Any){
@@ -21,3 +24,22 @@ class GoalsViewController: UIViewController {
     }
 }
 
+extension GoalsViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "goalCell") as? GoalTableViewCell else {
+            return UITableViewCell()}
+        cell.configureCell(name: "Eat salad twice a week", type: .shortTerm, progress: 2)
+        return cell
+    }
+    
+    
+}
