@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		25CB702226415135003372EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702126415135003372EE /* AppDelegate.swift */; };
 		25CB702426415135003372EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702326415135003372EE /* SceneDelegate.swift */; };
-		25CB702626415135003372EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702526415135003372EE /* ViewController.swift */; };
+		25CB702626415135003372EE /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702526415135003372EE /* GoalsViewController.swift */; };
 		25CB702926415135003372EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CB702726415135003372EE /* Main.storyboard */; };
 		25CB702C26415135003372EE /* goal_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25CB702A26415135003372EE /* goal_app.xcdatamodeld */; };
 		25CB702E26415139003372EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CB702D26415139003372EE /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		25CB701E26415134003372EE /* goal-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goal-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CB702126415135003372EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25CB702326415135003372EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25CB702526415135003372EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25CB702526415135003372EE /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		25CB702826415135003372EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25CB702B26415135003372EE /* goal_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goal_app.xcdatamodel; sourceTree = "<group>"; };
 		25CB702D26415139003372EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,9 +58,12 @@
 		25CB702026415134003372EE /* goal-app */ = {
 			isa = PBXGroup;
 			children = (
+				25CB703B2641530F003372EE /* Extensions */,
+				25CB703A26415306003372EE /* Enums */,
+				25CB703926415300003372EE /* View */,
+				25CB7038264152F4003372EE /* Controller */,
 				25CB702126415135003372EE /* AppDelegate.swift */,
 				25CB702326415135003372EE /* SceneDelegate.swift */,
-				25CB702526415135003372EE /* ViewController.swift */,
 				25CB702726415135003372EE /* Main.storyboard */,
 				25CB702D26415139003372EE /* Assets.xcassets */,
 				25CB702F26415139003372EE /* LaunchScreen.storyboard */,
@@ -68,6 +71,35 @@
 				25CB702A26415135003372EE /* goal_app.xcdatamodeld */,
 			);
 			path = "goal-app";
+			sourceTree = "<group>";
+		};
+		25CB7038264152F4003372EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25CB702526415135003372EE /* GoalsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25CB703926415300003372EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25CB703A26415306003372EE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		25CB703B2641530F003372EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CB702C26415135003372EE /* goal_app.xcdatamodeld in Sources */,
-				25CB702626415135003372EE /* ViewController.swift in Sources */,
+				25CB702626415135003372EE /* GoalsViewController.swift in Sources */,
 				25CB702226415135003372EE /* AppDelegate.swift in Sources */,
 				25CB702426415135003372EE /* SceneDelegate.swift in Sources */,
 			);
