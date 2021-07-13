@@ -45,6 +45,7 @@ class GoalsViewController: UIViewController {
         guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else {return}
         presentDetail(createGoalVC)
     }
+    
 }
 
 extension GoalsViewController: UITableViewDataSource, UITableViewDelegate {
@@ -143,5 +144,6 @@ extension GoalsViewController {
             completion(false)
         }
     }
-
+    
 }
+
