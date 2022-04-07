@@ -1,5 +1,5 @@
 # Achieve your goals!
-✅🗒A simple goal post app from iOS course.
+✅🗒 Simple goal post app from iOS course.
 
 ## Stack
 * UIKit
